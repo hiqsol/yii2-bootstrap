@@ -17,10 +17,6 @@
             "email": "qiang.xue@gmail.com"
         }
     ],
-    "require": {
-        "yiisoft/yii2": ">=2.0.6",
-        "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*"
-    },
     "autoload": {
         "psr-4": {
             "yii\\bootstrap\\": ""
@@ -30,9 +26,8 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         },
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+        "bower-require": {
+            "bootstrap": "3.3.x || 3.2.x || 3.1.x"
         }
     }
 }
