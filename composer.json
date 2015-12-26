@@ -22,6 +22,9 @@
             "yii\\bootstrap\\": ""
         }
     },
+    "require": {
+        "hiqdev/composer-asset-plugin": "*@dev"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "2.0.x-dev"
